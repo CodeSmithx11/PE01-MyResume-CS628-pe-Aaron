@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Input-Process-Output Model Analysis
 
 Input
@@ -11,3 +12,6 @@ When a user adds a task, the app updates the state using React's useState hook. 
 Output
 
 The updated task list is displayed on the screen in real time. Each task appears with a "Delete" button. The app ensures tasks are added and removed as expected, creating an interactive experience for users.
+=======
+# My Project
+>>>>>>> 56920f52 (Added README.md)
