@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #1f2937;
+  color: white;
+  padding: 15px 30px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: color 0.3s ease-in-out;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a:hover {
+  color: #22d3ee;
+  transform: scale(1.1);
+}
+
+/* Main Container */
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  max-width: 600px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Headers */
+h1, h2 {
+  font-size: 28px;
+  color: #1f2937;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #3b82f6;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Add City Form */
+form {
+  background-color: #f8fafc;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #d1d5db;
+  transition: border-color 0.3s;
+}
+
+form:hover {
+  border-color: #3b82f6;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(59, 130, 246, 0.5);
+}
+
+/* Button Styling */
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Cities List */
+.city-list-item {
+  padding: 10px 15px;
+  margin-bottom: 12px;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+  border-left: 5px solid #3b82f6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.city-list-item:hover {
+  transform: translateX(5px);
+  background-color: #e0f2fe;
+}
+
+/* City Details */
+.city-details {
+  padding: 20px;
+  background-color: #e0f2fe;
+  border-radius: 12px;
+  border-left: 5px solid #3b82f6;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.city-details:hover {
+  transform: scale(1.02);
+}
+
+/* Error Message */
+.error-message {
+  color: #ef4444;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #fecaca;
+  background-color: #fef2f2;
+  border-radius: 6px;
+}
